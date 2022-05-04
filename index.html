@@ -11,16 +11,46 @@
 <body>
     <section class="scene">
         <section class="dealer-cards">
-            <p>dealercards</p>
+            <section class="dealer-up-card">
+                <img src="" id="dealer-up-image" />
+            </section>
+            <section class="dealer-down-card">
+                <img src="" id="dealer-down-image" />
+            </section>
+            <section class="dealer-extra-card">
+                <img rc="" id="dealer-extra-image" />
+            </section>
+            <section class="dealer-total">
+                <p id="dealer-total-label"></p>
+                <p id="dealer-total-count"></p>
+            </section>
+        </section>
+        <section class="messages">
+            <p id="changing-message">Welcome to BlackJack input buy in to play</p>
+            <input type="number" placeholder="Input buy in" id="buy-in-input" />
+            <button class="user-input" id="buy-in-submit" >Click To Play!</button>
         </section>
         <section class="player-balance">
-            <p>balance</p>
+            <p id="balance-label">Balance: </p>
+            <p id="balance"></p>
         </section>
         <section class="player-cards">
-            <p>player cards</p>
+            <section class="player-first-card">
+                <img src="" id="player-first-image" />
+            </section>
+            <section class="player-second-card">
+                <img src="" id="player-second-image" />
+            </section>
+            <section class="player-extra-card">
+                <img src="" id="player-extra-image" />
+            </section>
+            <section class="player-total">
+                <p id="player-total-label"></p>
+                <p id="player-total-count"></p>
+            </section>
         </section>
     </section>
 
-    <script type="text/javascript" src="./scripts.js"></script>
+    <script type="module" src="./index.js"></script>
 </body>
 </html>

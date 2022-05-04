@@ -1,0 +1,24 @@
+{
+  "name": "blackjack",
+  "version": "1.0.0",
+  "description": "basic blackjack game",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gspuk-Git/blackjack.git"
+  },
+  "author": "Justin Marley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gspuk-Git/blackjack/issues"
+  },
+  "homepage": "https://github.com/Gspuk-Git/blackjack#readme",
+  "devDependencies": {
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
